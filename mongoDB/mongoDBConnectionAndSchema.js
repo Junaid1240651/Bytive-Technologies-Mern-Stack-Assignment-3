@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
 require("dotenv").config();
 
-const mongoUrl = process.env.mongoURL;
+const mongoUrl =
+  "mongodb+srv://junaid0000:junaid0000@cluster0.kuolmsq.mongodb.net/test";
 
 mongoose
   .connect(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true })
